@@ -125,8 +125,8 @@ BQAT/
 1. **Dataset**
 The dataset and pre-trained models are hosted on Hugging Face Datasets.\
 Download Links:
-Dataset: [Download here]()\
-Pre-trained Models: [Download here]()
+Dataset: [Download here](https://huggingface.co/Maxverywell/BQAT)\
+Pre-trained Models: [Download here](https://huggingface.co/Maxverywell/BQAT)
 
 
 ## 🏗️ Model Architecture
