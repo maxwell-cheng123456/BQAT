@@ -85,7 +85,7 @@ python -c "import rdkit; print(f'RDKit: {rdkit.__version__}')"
 Place your dataset in the data/ directory. Expected format:
 Training data: data/src-train.txt,data/tgt-train.txt\
 Validation data: data/src-val.txt, data/tgt-val.txt\
-Test data: data/src-test.txt, data/tgt-test.txt\
+Test data: data/src-test.txt, data/tgt-test.txt
 
 2. **Train a Model**
 ```bash
@@ -110,23 +110,23 @@ BQAT/
 │   ├── position.py/           # position encoding blocks\
 │   ├── prior_encoder.py/      # encoder block fusion with prior knowledge\
 │   ├── requirements.txt/      # python dependency\
-│   ├── smiles_graph.py/       # smiles graph building\ 
+│   ├── smiles_graph.py/       # smiles graph building\
 │   ├── tokenizer.py/          # smiles tokenizer\
 │   └── train.py/              # Training loops and evaluation\
 ├── vocab/                     # vocab Source\
 │   ├── show_vocab.py/         # print vocabulary\
 │   ├── vocab_with_error.pt/   # vocabulary file\
 │   └── vocab_with_error.py/   # build vocabulary file\
-└── README.md                  # This file\
+└── README.md                  # This file
 
 
 ## 📊 Dataset and Pre-trained Models
 
 1. **Dataset**
 The dataset and pre-trained models are hosted on Hugging Face Datasets.\
-Download Links:\
+Download Links:
 Dataset: [Download here]()\
-Pre-trained Models: [Download here]()\
+Pre-trained Models: [Download here]()
 
 
 ## 🏗️ Model Architecture
@@ -139,11 +139,11 @@ Key Hyperparameters:\
 Embedding dimension: 512\
 Hidden dimension: 2048\
 Number of layers: 6\
-Attention heads: 8\
+Attention heads: 8
 
 
 ## 📚 Citation
-If you use this code in your research, please cite:\
+If you use this code in your research, please cite:
 
 @software{BQAT,
   author = {Xiaobo Cheng},
@@ -158,5 +158,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact
 Issues: Please use GitHub Issues\
 Discussions: Join our GitHub Discussions\
-Email: maxwell_cheng@163.com\
+Email: maxwell_cheng@163.com
 
