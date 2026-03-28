@@ -8,6 +8,7 @@ import pickle
 import torch
 import numpy as np
 from tqdm import tqdm
+import locate_atom
 
 BONDTYPES = ['NONE', 'AROMATIC', 'DOUBLE', 'SINGLE', 'TRIPLE']
 BONDTOI = {bond: i for i, bond in enumerate(BONDTYPES)}

@@ -9,6 +9,7 @@ torch.backends.cudnn.enabled = False
 torch.manual_seed(40)
 import torch.utils.data.distributed
 torch.autograd.set_detect_anomaly(True)
+from torch.utils.data import DataLoader
 
 #  模型配置
 #  hyperparameters configuration
